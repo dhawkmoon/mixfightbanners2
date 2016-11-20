@@ -740,6 +740,7 @@ textarea {
   overflow: hidden;
 }
 .slide-primary {
+  display: none;
   background-image: url(../img/slide-1-back.jpg);
 }
 .slide-primary .logo {

@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){function a(){var a=$(".slider"),b=a.find(".wrapper"),c=a.find(".slide");console.log(a),b.height(a.height()),c.height(a.height());var d=0;$(c[d]).fadeIn(),d++}a()});
+jQuery(document).ready(function(){function a(){var a=$(".slider"),b=a.find(".wrapper"),c=a.find(".slide");console.log(a),b.height(a.height()),c.height(a.height());var d=0;$(c[d]).fadeIn(),d++,setInterval(function(){d>=c.length&&(d=0),$(c).fadeOut(100),$(c[d]).fadeIn(100),d++},7e3)}a()});
