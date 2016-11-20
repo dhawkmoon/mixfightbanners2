@@ -740,7 +740,6 @@ textarea {
   overflow: hidden;
 }
 .slide-primary {
-  display: none;
   background-image: url(../img/slide-1-back.jpg);
 }
 .slide-primary .logo {
@@ -754,8 +753,7 @@ textarea {
 .slide-primary .logo__text {
   position: relative;
   z-index: 1;
-  margin-top: 2%;
-  margin-left: 4%;
+  margin-top: 18px;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
   -webkit-animation-duration: 0.75s;
@@ -764,7 +762,7 @@ textarea {
           animation-delay: 2s;
 }
 .slide-primary .logo__back {
-  left: 5%;
+  left: 0;
   top: -10%;
   position: absolute;
   right: 0;

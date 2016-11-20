@@ -22,12 +22,11 @@
 			&__text{
 				position: relative;
 				z-index: 1;
-				margin-top: 2%;
-				margin-left: 4%;
+				margin-top: 18px;	
 				@include animation( fadeIn, .75s, 2s );
 			}
 			&__back{
-				left: 5%;
+				left: 0;
 			    top: -10%;
 			    position: absolute;
 			    right: 0;
