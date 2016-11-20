@@ -805,6 +805,9 @@ textarea {
   color: #6d6d6d;
   top: 47%;
 }
+.slide-secondary {
+  display: none;
+}
 .slide-secondary .fighter-1 {
   position: relative;
   height: 150px;
