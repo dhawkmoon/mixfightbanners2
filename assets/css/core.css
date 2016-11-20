@@ -742,6 +742,8 @@ textarea {
 .slide-primary {
   display: none;
   background-image: url(../img/slide-1-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .slide-primary .logo {
   position: absolute;
