@@ -23,7 +23,7 @@ jQuery(document).ready(function(){
 			
 		
 			
-		}, 7000);
+		}, 5000);
 	}
 	
 	sliderInit();

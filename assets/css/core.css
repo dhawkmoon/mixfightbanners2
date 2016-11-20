@@ -757,10 +757,10 @@ textarea {
   margin-top: 18px;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 .slide-primary .logo__back {
   left: 0;
@@ -770,10 +770,10 @@ textarea {
   margin: auto;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 .slide-primary__date {
   width: 226px;
@@ -782,8 +782,8 @@ textarea {
   left: 6%;
   -webkit-animation-name: fadeInLeft;
           animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
@@ -793,10 +793,10 @@ textarea {
   top: 32%;
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 2.75s;
-          animation-delay: 2.75s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 .slide-primary .copy {
   font-family: Arial;
@@ -814,8 +814,8 @@ textarea {
 .slide-secondary .fighter-1__img {
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
 }
@@ -825,10 +825,10 @@ textarea {
   left: 160px;
   -webkit-animation-name: fadeInRight;
           animation-name: fadeInRight;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 .slide-secondary .fighter-2 {
   position: absolute;
@@ -841,10 +841,10 @@ textarea {
   top: 0;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 .slide-secondary .fighter-2__text {
   position: absolute;
@@ -852,10 +852,10 @@ textarea {
   right: 160px;
   -webkit-animation-name: fadeInLeft;
           animation-name: fadeInLeft;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 2.75s;
-          animation-delay: 2.75s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 .slide-secondary .time {
   position: absolute;
@@ -875,18 +875,18 @@ textarea {
           animation-name: fadeIn;
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 .slide-secondary .time__text {
   position: relative;
   z-index: 1;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
-  -webkit-animation-duration: 0.75s;
-          animation-duration: 0.75s;
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 /*# sourceMappingURL=core.css.map */
