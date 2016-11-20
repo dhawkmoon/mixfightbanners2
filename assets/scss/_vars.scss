@@ -1,0 +1,13 @@
+//Vars
+
+$primary: #dd051e;
+$secondary: #6d6d6d;
+$bg: #000;
+
+//Mixins
+
+@mixin animation($name, $dur, $del){
+	animation-name: $name;
+	animation-duration: $dur;
+	animation-delay: $del;
+}

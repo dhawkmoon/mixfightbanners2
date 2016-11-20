@@ -1,0 +1,116 @@
+/*
+ * Slides
+ */
+ 
+ %sprite{
+	position: relative;
+	text-align: center;
+ }
+ 
+ .slide{
+	 overflow: hidden;
+	 &-primary{
+		display: none;
+		background-image: url(../img/slide-1-back.jpg);
+		.logo{
+			position: absolute;
+			width: 100%;
+			height: 90px;
+			overflow: hidden;
+			top: 0;
+			text-align: center;
+			&__text{
+				position: relative;
+				z-index: 1;
+				margin-top: 2%;
+				margin-left: 4%;
+				@include animation( fadeIn, .75s, 2s );
+			}
+			&__back{
+				left: 5%;
+			    top: -10%;
+			    position: absolute;
+			    right: 0;
+			    margin: auto;
+			    @include animation( fadeIn, .75s, 1.25s );
+			}
+		}
+		&__date{
+			width: 226px;
+			height: 55px;
+			@extend %sprite;
+			top: 25%;
+			left: 6%;
+			@include animation( fadeInLeft, .75s, .5s );
+		}
+		&__time{
+			position: absolute;
+			right: 3%;
+			top: 32%;
+			@include animation( fadeInUp, .75s, 2.75s );
+		}
+		.copy{
+			@extend %sprite;
+			font-family: Arial;
+			font-size: 9px;
+			color: $secondary;
+			top: 47%;
+		}
+		
+	 }
+	&-secondary{
+		//display: none;
+		.fighter-1{
+			position: relative;
+			height: 150px;
+			&__img{
+				@include animation( fadeIn, .75s, .5s );
+			}
+			&__text{
+				position: absolute;
+				top: 13%;
+				left: 160px;
+				@include animation( fadeInRight, .75s, 1.25s );
+			}
+		}
+		.fighter-2{
+			position: absolute;
+		    height: 90px;
+		    right: 0;
+		    top: 0;
+			&__img{
+				position: relative;
+				top:0;
+				@include animation( fadeIn, .75s, 2s );
+			}
+			&__text{
+				    position: absolute;
+					top: 22%;
+					right: 160px;
+    				@include animation( fadeInLeft, .75s, 2.75s );
+			}
+		}
+		.time{
+			position: absolute;
+			left:0;
+			right: 0;
+			top:0;
+			bottom: 0;
+			margin: auto;
+			width: 321px;
+			height: 40px;
+			&__back{
+				position: absolute;
+				left: 0;
+				top:-70%;
+				@include animation( fadeIn, .5s, 4s );
+			}
+			&__text{
+				position: relative;
+				z-index: 1;
+				@include animation( fadeIn, .75s, 4.5s );
+			}
+		}
+	}
+	 
+ }
